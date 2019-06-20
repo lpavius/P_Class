@@ -9,13 +9,11 @@ h1 {
 }
 
 .svg-container { 
-	/*display: inline-block;*/
 	position: relative;
 	width: 40%;
 	padding-bottom: 41%;
 	margin: auto;
 	overflow: hidden; 
-	/*border: 2px solid black;*/
 }
 
 .svg-content { 
