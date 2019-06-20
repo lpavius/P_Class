@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JqClass</title>
+	<link rel="stylesheet" type="text/css" href="css/jqclass.css">
+</head>
+<body>
+	<h1>Classe ou pas Classe ?</h1>
+	<div class="svg-container">
+		<svg version="1.1" viewBox="0 0 500 510" 
+preserveAspectRatio="xMinYMin meet" class="svg-content">
+			<!-- Ligne 1 -->
+			<rect id="one" class="l1" x="15" y="30" width="70" height="70" stroke="black" fill="transparent"/>
+			<circle class="l1" cx="150" cy="65" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<circle class="l1 los" cx="250" cy="65" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<circle class="l1" cx="350" cy="65" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<circle class="l1" cx="450" cy="65" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+
+			<!-- Ligne 2 -->
+			<circle class="l2" cx="50" cy="165" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<rect id="two" class="l2" x="115" y="130" width="70" height="70" stroke="black" fill="transparent"/>
+			<circle class="l2 los" cx="250" cy="165" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<circle class="l2" cx="350" cy="165" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<circle class="l2" cx="450" cy="165" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+
+			<!-- ligne 3 -->
+			<circle class="l5" cx="50" cy="265" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<circle class="l5" cx="150" cy="265" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<rect id="losange" class="l5" x="215" y="230" width="70" height="70" stroke="black" fill="transparent" transform="rotate(45, 250, 265)"/> <!--(degree, x+(width/2), y+(height/2))   -->
+			<circle class="l5" cx="350" cy="265" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<circle class="l5" cx="450" cy="265" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+
+			<!-- Ligne 4 -->
+			<circle class="l3" cx="50" cy="365" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<circle class="l3" cx="150" cy="365" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<circle class="l3 los" cx="250" cy="365" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<rect id="three" class="l3" x="315" y="330" width="70" height="70" stroke="black" fill="transparent"/>
+			<circle class="l3" cx="450" cy="365" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+
+			<!-- Ligne 5 -->
+			<circle class="l4" cx="50" cy="465" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<circle class="l4" cx="150" cy="465" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<circle class="l4 los" cx="250" cy="465" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<circle class="l4" cx="350" cy="465" r="35" stroke="black" fill="transparent" stroke-width="1"/>
+			<rect id="four" class="l4" x="415" y="430" width="70" height="70" stroke="black" fill="transparent"/>
+		</svg>
+	</div>
+	<div id="bouton">
+		<button class="on">on</button>
+		<button class="off">off</button>
+	</div>
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/jqclass.js"></script>
+</body>
+</html>
